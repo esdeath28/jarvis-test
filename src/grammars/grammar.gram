@@ -1,0 +1,14 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar 
+ */
+
+grammar grammar;
+
+
+public <commands> = (shut down|restart|cancel);
+
+public <voices> = (hello|hello jarvis|thank you|how are you|okay|i am fine|lights on|lights off|system log off);
+public <others> = (nothing);
+
